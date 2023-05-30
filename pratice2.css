@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:garamond;
+}
+.breakfastout,
+.lunchout,
+.snack1out,
+.snack2out,
+.dinnerout{
+    width:100%;
+    height:auto;
+    background-color:rgb(253 224 71);
+    margin-top:50px;
+    padding-bottom:40px;
+}
+.snack1out,
+.lunchout,
+.snack2out,
+.dinnerout{
+    padding-top:50px;
+}
+.head{
+    text-align:center;
+    color:green;
+    padding:20px 0px;
+}
+.breakfastout .breakfast,
+.snack1out .snack1,
+.lunchout .lunch,
+.snack2out .snack2,
+.dinnerout .dinner{
+    width:40%;
+    height:100%;
+    background-color:rgb(254 240 138);
+    margin-left:30%;
+    padding-bottom:30px;
+    border-radius:10px;
+}
+.breakfast h3,
+.snack1 h3,
+.lunch h3,
+.snack2 h3,
+.dinner h3{
+    margin-left:40px;
+    padding:40px 0;
+    color:green;
+
+}
+.breakfast .protein,
+.snack1 .protein,
+.lunch .protein,
+.snack2 .protein,
+.dinner .protein{
+    margin-left:40px;
+    padding:10px;
+}
+.breakfast .protein p,
+.snack1 .protein p,
+.lunch .protein p,
+.snack2 .protein p,
+.dinner .protein p{
+    margin-left:20px;
+    padding:10px;
+}
+.breakfast .fats,
+.lunch .fats{
+    margin-left:40px;
+    padding:10px;
+}
+.breakfast .fats p,
+.lunch .fats p{
+    margin-left:20px;
+    padding:10px;
+}
+.breakfast .carbs,
+.lunch .carbs,
+.snack2 .carbs{
+    margin-left:40px;
+    padding:10px;
+}
+.breakfast .carbs p,
+.lunch .carbs p,
+.snack2 .carbs p{
+    margin-left:20px;
+    padding:10px;
+}
+.snack1 .carbohydrates{
+    margin-left:40px;
+    padding:10px;
+}
+.snack1 .carbohydrates p{
+    margin-left:20px;
+    padding:10px;
+}
+.breakfastout span{
+    position:absolute;
+    padding-top:10%;
+    margin-left:23%;
+    font-size:30px;
+    color:red;
+}
+.snack1out span,
+.lunchout span,
+.snack2out span,
+.dinnerout span{
+    position:absolute;
+    padding-top:4%;
+    margin-left:23%;
+    font-size:30px;
+    color:red;
+
+}
+
+
+
